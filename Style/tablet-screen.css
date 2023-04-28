@@ -1,0 +1,88 @@
+@media (max-width:767px){
+    .container{
+        width: auto;
+        padding: 0 10px;
+    }
+    .header{
+        padding: 20px 0 15px 0;
+    }
+    .hamnurger-menu{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+
+    .zarin-menu{
+        display: block;
+    }
+    .background-wave{
+        background: none;
+        padding: 40px 30px 90px 30px;
+    }
+    .online-payment-getway-text , .zarin-link-text , .zarin-card-text , .share-text , .zarin-plus-text{
+        width: 80%;
+        margin: auto;
+    }
+    .first-title , .second-title , .online-payment-getway-btn , .zarin-link-btn , .zarin-card-btn , .share-btn , .zarin-plus-btn{
+        text-align: center;
+    }
+    .zarin-link-img{
+        margin-top: 0;
+    }
+    .zarin-card{
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+    }
+    .zarin-card-img{
+        margin-bottom: 5rem;
+    }
+    .share-img , .zarin-plus-img{
+        display: none;
+    }
+    .col-6:first-child{
+        padding-left: 0 !important;
+    }
+    .features-text{
+        margin-bottom: 10rem;
+    }
+    .features-text h1{
+        text-align: center;
+    }
+    .features-text p{
+        padding: 0 4.5rem;
+    }
+    .news h1{
+        font-size: 25px;
+    }
+    .news h3{
+        font-size: 19px;
+    }
+
+    .support{
+        display: block;
+        background: none;
+    }
+    .support h1{
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+    }
+    .support a{
+        background-color: #fbf6f1;
+        padding: 10px 20px;
+        border-radius: 2rem;
+    }
+
+    .footer-list ul{
+        width: 50%;
+    }
+
+    .zarinpal ,.sources{
+        width: 40% !important;
+    }
+
+    .product ,.communication{
+        padding-right: 4rem;
+        margin-left: 3rem;
+    }
+}

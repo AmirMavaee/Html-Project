@@ -1,0 +1,148 @@
+@media (max-width: 1199px) {
+  .container {
+    width: 940px;
+  }
+  .header {
+    padding: 20px 0 10px 0;
+  }
+
+  .zarin-logo {
+    margin-right: 10px;
+  }
+
+  .menu {
+    margin-left: 20px;
+  }
+
+  .zarinpal-link {
+    margin-right: 4 0px;
+  }
+
+  .background-wave {
+    padding: 40px 25px 180px 70px;
+  }
+
+  .img-experience {
+    margin-top: 45px;
+  }
+
+  .img-experience img {
+    height: 100%;
+    width: 103%;
+  }
+
+  .title-experience p {
+    line-height: 2;
+  }
+
+  .online-payment-getway-text {
+    padding-left: 0;
+  }
+
+  .first-title {
+    font-size: 31px;
+  }
+  .second-title {
+    font-size: 29px;
+  }
+  .description {
+    text-align: justify;
+  }
+  .payment-img {
+    padding-left: 0;
+  }
+  .zarin-link-img img {
+    width: 500px;
+    height: 500px;
+    margin-right: 0.5rem;
+  }
+  .zarin-card {
+    margin: 1rem 0 5rem 0;
+  }
+
+  .zarin-card-text {
+    margin-top: -2rem;
+  }
+  .zarin-card-title {
+    margin-left: 0;
+  }
+  .share-text {
+    width: 50%;
+  }
+  .share-img {
+    width: 50%;
+  }
+  .share-img img {
+    margin-right: -5rem;
+    width: 119%;
+  }
+  .zarin-plus-title {
+    margin-left: 0;
+    padding-top: 1rem;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+  .features-text {
+    width: 100%;
+    margin-bottom: 7rem;
+  }
+  .features-text h1 {
+    margin-bottom: 1rem;
+    font-size: 26px;
+  }
+  .features-text p {
+    width: 100%;
+  }
+  .features-description {
+    display: flex;
+    padding-right: 2rem;
+    width: 100%;
+  }
+  .col-6{
+    display: block;
+  }
+  .col-6:first-child {
+    margin-bottom: 3rem;
+    margin-left: 6rem;
+    width: 37%;
+  }
+  .col-6:last-child{
+    width: 40%;
+  }
+  .col-6 > div{
+    width: 100%;
+  }
+  .col-6 > div:first-child {
+    border-left: 0;
+  }
+
+  .garanty,
+  .routing {
+    border-bottom: 0;
+  }
+
+  .garanty,
+  .routing,
+  .support-main,
+  .security {
+    padding: 0;
+  }
+
+  .garanty , .support-main{
+    min-height: 220px;
+  }
+
+  .description-title h2{
+    font-size: 22px;
+  }
+
+  .support h1{
+    font-size: 24px;
+  }
+
+  .footer-list ul{
+    width: 160px;
+  }
+}

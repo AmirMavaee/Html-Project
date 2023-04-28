@@ -1,0 +1,117 @@
+@media (max-width: 576px) {
+  .background-wave {
+    padding: 60px 45px 105px 50px;
+  }
+
+  .title-experience h1 {
+    text-align: start;
+    font-size: 1.2rem;
+  }
+
+  .title-experience h1:first-child {
+    margin-bottom: 1rem;
+  }
+
+  .title-experience p {
+    font-size: 15px;
+    line-height: 2.25;
+    padding: 0 5px 0 5px;
+    margin-bottom: 30px;
+  }
+  .payment-img,
+  .zarin-link-img,
+  .zarin-card-img {
+    display: none;
+  }
+  .zarin-link {
+    margin-bottom: 4rem;
+  }
+  .share {
+    margin-bottom: 1rem;
+  }
+  .second-title {
+    text-align: start;
+  }
+  .features-text {
+    margin-bottom: 3rem;
+  }
+  .features-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-6 {
+    width: 336px !important;
+  }
+
+  .features-text h1 {
+    font-size: 24px;
+  }
+
+  .description-title h2 {
+    font-size: 20px;
+  }
+
+  .news h1 {
+    font-size: 19px;
+  }
+
+  .news h3 {
+    font-size: 16px;
+  }
+  .support {
+    padding-top: 30px;
+    border-top: 1px solid #dfe1e4;
+    border-radius: 0;
+  }
+  .support h1,
+  .support a span {
+    font-size: 14px;
+  }
+  .support h1 > span:first-child {
+    display: block;
+  }
+  .support h1 > span:nth-child(2) {
+    display: none;
+  }
+  .support h1 > span:last-child {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .product-item-footer:first-child,
+  .zarinpal-item:first-child,
+  .communication-item:first-child,
+  .sources-item:first-child {
+    font-size: 14px;
+    margin-bottom: 1rem;
+    }
+    .footer-list a{
+        font-size: 14px;
+    }
+    .footer-list ul li {
+      margin-bottom: .25rem;
+    }
+    .product ,.communication{
+      padding-right: 3rem;
+    }
+    .footer-menu{
+      padding: 0;
+    }
+    .footer-menu h3{
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 12px;
+    }
+    .social-menu{
+      justify-content: center;
+    }
+
+    .social-menu-item a{
+      width: 35px;
+      height: 35px;
+    }
+    .social-menu-item img{
+      width: 18px;
+    }
+}

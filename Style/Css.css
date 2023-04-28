@@ -1,0 +1,716 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(20px);
+    position: sticky;
+    top: 0;
+    transition: all 1s ease;
+    z-index: 100;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.hamnurger-menu{
+    display: none;
+
+}
+
+.hamburger-button{
+    border: 0;
+    background: none ;
+    outline: none;
+}
+.hamburger-button img{
+    width: 27px;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+    color: #303030;
+    font-size: 14px;
+    font-family: 'YekanBakhMedium';
+    cursor: pointer;
+    margin-right:  25px;
+}
+
+#show-product-menu , #show-more-menu{
+    position: relative;
+}
+
+.menu-item  a{
+    text-decoration: none;
+    color: #303030;
+}
+
+.product-item , .more-item{
+    position: absolute;
+    background-color: #fff;
+    margin-top: 0px;
+    border-radius: .7rem;
+    border-top: 5px solid #f8e88b;
+    border-bottom:1px solid hsla(0, 0%, 90%, 0.7);
+    box-shadow: 0 0 40px rgba(0, 0, 0, .1);
+}
+
+.product-item{
+    right: -153px;   
+    display: none;
+    padding:15px;
+}
+
+.more-item{
+    display: none ;
+    right: -38px;
+    padding: 12px 0;
+}
+
+.title{
+    font-family: 'iranyekanwebregular';
+    font-size: 14px;
+}
+
+.right-col .title:hover{
+    color: #28457b !important;
+}
+
+.text{
+    font-size: 12.5px;
+    margin: 7px 0;
+}
+
+.more-item a p{
+    font-size: 13px;
+}
+
+.right-col a:nth-child(2) div , .left-col a:nth-child(2) div{
+    margin: 30px 0;
+}
+
+.right-col div{
+    width: 180px;
+}
+
+.left-col div{
+    width: 160px;
+}
+
+.right-col div , .left-col div{
+    padding: 0 10px ;
+    transition: all .2s ease;
+}
+
+.right-col div:hover , .left-col div:hover{
+    background-color: rgba(232, 239, 254, .6);
+    padding: 0 10px ;
+    border-radius: 8px;
+}
+
+.more-item p{
+    padding: 14px 17px 10px 14px;
+    padding-right: 20px;
+    transition: all .5s ease;
+}
+
+.more-item p:hover{
+    background-color: rgba(232, 239, 254, .6);
+}
+
+.zarinpal-link a{
+    color: #28457b!important;
+    background: rgba(232,239,254,.6);
+    padding: 10px 25px;
+    margin-right: 10px;
+    font-family: 'YekanBakhBold' !important;
+    border-radius: 20px;
+    font-size: 14.5px !important;
+}
+
+.zarinpal-link a:hover{
+    background-color: #fbf6d9;
+}
+
+.menu-item  > a{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.menu-item i{
+    font-size: 11px;
+    margin-right: 5px;
+}
+
+.zarin-menu{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    margin: 0 -10px;
+    padding: 27px 27px 0 27px;
+    transform: translateY(-100%);
+}
+.zarin-menu-img{
+    text-align: left;
+}
+.zarin-menu-img img{
+    width: 20px;
+}
+.zarin-menu-ul{
+    list-style: none;
+    margin-top: 40px;
+}
+.zarin-menu-items{
+    margin: 10px 0;
+}
+.zarin-menu-items a , .my-zarinpal-link a{
+    text-decoration: none;
+    color: #000;
+}
+.horizental-spilit-line{
+    width: 90%;
+    height: 1px;
+    background-color: #dfe1e4;
+    margin-right: 2px;
+}
+.my-zarinpal-link{
+    background-color: #eee;
+    padding: 20px 27px;
+    margin: 30px -27px 0 -27px;
+}
+.my-zarinpal-link a{
+    background-color: rgba(232,239,254,.6);
+    color: #28457b!important;
+}
+
+.my-zarinpal-link > a i{
+    font-size: 13px;
+}
+
+.show-zarin-menu{
+animation: fadeInDown .25s forwards;
+}
+
+/* =================header End===================== */
+
+
+.work-experience{
+    background-image: linear-gradient(135deg,#21254e,#2b4a83);
+    border-radius: 1.2rem;
+}
+
+.background-wave{
+    display: flex;
+    color: #fff;
+    padding: 120px 70px 80px 60px;
+    background: url('https://www.zarinpal.com/assets/images/wave.svg?4a663924967723420f5c4cb59d15959e') 0 40% no-repeat ;
+}
+
+.text-experience , .img-experience
+{
+    width: 50%;
+}
+
+.title-experience h1{
+    font-size: 2rem;
+    font-family: 'YekanBakhHeavy';
+}
+
+.title-experience p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'YekanBakhMedium';
+    line-height: 2.1;
+
+}
+
+.btn-experience{
+    margin-top: 70px;
+}
+
+.register , .login{
+    text-decoration: none;
+}
+
+.register{
+    font-family: 'YekanBakhBold';
+    font-size: .95rem;
+    background-image: linear-gradient(270deg,#ffd900,#ffe422) ;
+    border-radius: 8px;
+    padding: 5px 13px;
+    color: #000;
+    margin-left: 7px;
+}
+
+.login{
+    background: #435a8a;
+    color: #fff;
+    padding: 5px 13px;
+    border-radius: 8px;
+    font-size: .95rem;
+}
+
+/* --------- */
+
+.img-experience img{
+    width: 97%;
+}
+
+.go-down{
+    position: relative; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.go-down div{
+    width: 170px; 
+    height: 100px; 
+    position: absolute; 
+    top: -40px;
+}
+
+.go-down i{
+    font-size: 20px; 
+    position: absolute; 
+    top: -20px; 
+    cursor: pointer;
+}
+
+.online-payment-getway {
+    display: flex; 
+    height: 500px; 
+    margin: 11rem 0 0 0;
+}
+
+.payment-img{
+    width: 50%; 
+    padding-left: 8.4rem; 
+    margin-top: -3rem;
+}
+
+.payment-img img{
+    width: 100%; 
+    height: 100%;
+}
+.online-payment-getway-text {
+    width: 50%; 
+    padding-left: 60px;
+}
+
+.border-style{
+    border-bottom: 1px solid #dfe1e4; 
+    padding-bottom: 20px; 
+    margin-bottom: 35px;
+}
+
+.first-title{
+    font-size: 22px; 
+    font-family: 'YekanBakhMedium'; 
+    font-weight: 400; 
+    color: #747480;
+}
+
+.second-title{
+    font-family: 'YekanBakhHeavy'; 
+    font-size: 31px; 
+    color: #303030;
+}
+
+.description{
+    font-size: 15.5px; 
+    font-family: 'YekanBakhMedium'; 
+    color: #303030; 
+    line-height: 2.5; 
+    margin-top: 10px;
+}
+
+.link-self{
+    color: #000; 
+    text-decoration: none; 
+    font-family: 'iranyekanwebmedium'; 
+    font-size: 13.6px; 
+    background-image: linear-gradient(270deg,#ffd900,#ffe422);
+    padding: 8px 13px; 
+    border-radius: 10px;
+}
+
+.link-general{
+    color: #28457b; 
+    text-decoration: none; 
+    font-family: 'iranyekanwebmedium'; 
+    font-size: 13.6px; 
+    background-color: rgba(232,239,254,.6); 
+    padding: 8px 13px; 
+    border-radius: 10px; 
+    margin-right: 10px;
+}
+
+.link-general-img{
+    width: 20px; 
+    height: 15px; 
+    margin: -3px 0;
+}
+
+.zarin-link{
+    display: flex; 
+    height: 500px;
+}
+
+.zarin-link-text{
+    width: 50%;
+}
+.zarin-link-title{
+    margin-left: 70px;
+}
+
+.zarin-link-img{
+    width: 50%;
+}
+
+.zarin-link-img img{
+    width: 625px;
+    height: 625px; 
+    margin: -90px -40px 0 0;
+}
+
+.zarin-card{
+    display: flex; 
+    justify-content: space-between; 
+    margin: 10rem 0;
+}
+
+.zarin-card-title , .zarin-plus-title{
+    margin-left: 50px;
+}
+
+.zarin-card-img , .zarin-card-text{
+    width: 50%;
+}
+
+.share{
+    display: flex;
+    height: 500px;
+}
+
+.share-text{
+    width: 50%; 
+    padding-left: 70px;
+}
+
+.share-img{
+    width: 50%;
+}
+
+.share-img img{
+    width: 100%; 
+    height: 100%;
+}
+
+.zarin-plus{
+    display: flex;
+    height: 450px;
+}
+
+.zarin-plus-img , .zarin-plus-text{
+    width: 50%;
+}
+
+.features{
+    display: flex;
+}
+
+.features-text{
+    width: 35%;
+    color: #303030;
+}
+
+.features-description{
+    width: 60%;
+}
+
+.features-text h1{
+    font-family: 'YekanBakhHeavy';
+    font-size: 31px;
+    margin-bottom: 3rem;
+}
+
+.features-text p{
+    font-family: 'YekanBakhMedium';
+    width: 75%;
+    line-height: 2.5;
+    text-align: justify;
+    text-align-last: right;
+    font-size: 14.5px;
+}
+
+.col-6{
+    display: flex;
+}
+
+.col-6 > div{
+    width: 50%;
+}
+
+.col-6 > div:first-child{
+    border-left: 1px solid #e0e4e7;
+}
+
+.garanty , .routing{
+    border-bottom: 1px solid #e0e4e7;
+}
+
+.garanty{
+    padding: 20px 20px 40px  40px;
+}
+
+.support-main{
+    padding: 20px 20px 70px  40px;
+}
+
+.routing{
+    padding: 20px 60px 40px  20px;
+}
+
+.security{
+    padding: 20px 60px 70px  20px;
+}
+
+.description-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.description-title img{
+    width: 60px;
+    margin-left: 1rem;
+}
+
+.description-title h2{
+    font-family: 'YekanBakhHeavy';
+    color: #303030;
+}
+
+.description-text p{
+    font-family: 'YekanBakhMedium';
+    color: #303030;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.news{
+    text-align: center;
+    border: 1px solid #c3c6cd ;
+    padding: 40px 0;
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+.news h1{
+    font-family: 'YekanBakhHeavy';
+    color: #303030;
+    font-size: 28px;
+}
+
+.news h3{
+    font-family: 'YekanBakhMedium';
+    color: #747480;
+    font-weight: 300;
+    margin: 17px 0;
+    font-size: 21px;
+}
+
+.news a{
+    text-decoration: none;
+    font-family: 'iranyekanwebmedium'; 
+    background-image: linear-gradient(270deg,#ffd900,#ffe422);
+    padding: 8px 13px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #000;
+}
+
+.support{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    background-color: #fbf6f1;
+    padding: 14px 30px;
+    border-radius: 40px;
+}
+
+.support h1{
+    font-size: 25px;
+    font-family: 'YekanBakhHeavy';
+    color: #303030;
+}
+
+.spilit{
+    padding: 0 15px;
+}
+
+.number{
+    padding-right: 10px ;
+    color: #21457f;
+}
+
+.support a{
+    text-decoration: none;
+   color: #21457f;
+}
+
+.support a span{
+    font-family: 'YekanBakhBold';
+    font-size: 23px ;
+}
+
+.support a i{
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.footer-list-social{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-list ul{
+    width: 200px;
+}
+
+.footer-list ul li{
+    margin-bottom: 1rem;
+}
+
+.footer-list-social ul{
+    list-style-type: none;
+}
+
+.footer-list-social a{
+    text-decoration: none;
+    color: #000;
+}
+
+.product-item-footer:first-child, 
+.zarinpal-item:first-child , 
+.communication-item:first-child , 
+.sources-item:first-child{
+    font-family: 'YekanBakhHeavy';
+    font-size: 20px;
+    margin-bottom: 1.3rem;
+}
+
+.product-item-footer:first-child:hover, 
+.zarinpal-item:first-child:hover , 
+.communication-item:first-child:hover , 
+.sources-item:first-child:hover{
+    color:#21457f ;
+}
+
+.footer-menu{
+    padding-left: 2rem;
+}
+
+.footer-menu h3{
+    transition: color .2s;
+    font-size: 17px;
+}
+
+.footer-menu h3:hover{
+    color: #21457f;
+}
+
+.social-menu{
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.social-menu-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff4fe;
+    border-radius: 13px;
+    margin-left: 1rem;
+}
+
+.social-menu-item a{
+    width: 44px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy-write{
+    margin: 4rem 0 5rem 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.e-namad-logo{
+    text-align: center;
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+
+.bell{
+    background-color: #2e82ff;
+    width: fit-content ;
+    padding: 7px 7px 0;
+    border-radius: 50%;
+    position: fixed ;
+    bottom: 20px;
+    left: 20px;
+}
+
+.bell img{
+    width: 35px;
+}
+@keyframes fadeInDown{
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes showUp{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
